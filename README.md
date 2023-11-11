@@ -18,7 +18,7 @@ A API permite que o usuário faça as seguintes operações:
 
 ### **Banco de dados**
 
-A API criada criada em Javascript acessa o Banco de Dados em PostgreSQL, persiste os dados de usuários, criptografa a senha usando o JSON Web Token.
+A API criada em Javascript acessa o Banco de Dados em PostgreSQL, persiste os dados de usuários, criptografa a senha usando o JSON Web Token.
 O Banco de Dados contem as seguintes tabelas e colunas:  
 
 - usuarios
