@@ -1,0 +1,29 @@
+{
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "extends": "airbnb-base",
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "plugins": ["prettier"],
+  // "linebreak-style": ["error", "windows"],
+  "rules": {
+    "import/no-extraneous-dependencies": "off",
+    "consistent-return":"off",
+    "operator-linebreak":"off",
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 80,
+        "tabWidth": 2,
+        "singleQuote": true,
+        "trailingComma": "all",
+        "arrowParens": "always",
+        "semi": true
+      }
+    ]
+  }
+}
