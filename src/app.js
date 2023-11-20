@@ -7,4 +7,8 @@ const app = express();
 app.use(express.json());
 app.use(rotas);
 
-app.listen(3000, () => console.log('server rodando na porta 3000'));
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => {
+    console.log(`Servidor em pé na porta ${port}`)
+});
