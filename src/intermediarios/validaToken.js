@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const senhaJwt = require('../senha.Jwt');
+const senhaJwt = process.env.SENHA;
 const pool = require('../bancodedados/conexao');
 
 const validaToken = async (req, res, next) => {

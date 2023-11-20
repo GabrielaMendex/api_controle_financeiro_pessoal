@@ -1,7 +1,7 @@
 const pool = require("../bancodedados/conexao");
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const senhaJwt = require('../senha.Jwt');
+const senhaJwt = process.env.SENHA;
 
 const fazerLogin = async (req, res) => {
   const {email, senha} = req.body;

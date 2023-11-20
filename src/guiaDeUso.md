@@ -63,5 +63,5 @@ Guia de Uso das Rotas do Projeto:
 # 11. Remoção de uma Transação:
   # Rota: DELETE /transacao/:id
   - Descrição: Remova uma transação pelo seu ID.
-  # Parâmetros: ID da transação na URL
+  # Parâmetros: ID da transação na URL.
 
