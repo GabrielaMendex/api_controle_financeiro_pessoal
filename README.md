@@ -1,4 +1,4 @@
-# RESTful API para Controle Financeiro Pessoal
+# 🧾💰 RESTful API para Controle Financeiro Pessoal 
 
 A API permite que o usuário faça as seguintes operações:
 
