@@ -8,6 +8,7 @@ const rotas = Router();
 
 rotas.post('/usuario', controladores.cadastraUsuario);
 rotas.post('/login', controladores.fazerLogin);
+rotas.get('/', async (req, res) => {return res.json('Api está ok :)')});
 
 rotas.use(validaToken);
 
